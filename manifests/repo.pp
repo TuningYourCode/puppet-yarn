@@ -20,8 +20,8 @@ class yarn::repo (
           release  => 'stable',
           repos    => 'main',
           key      => {
-            'id'     => '72ECF46A56B4AD39C907BBB71646B01B86E50310',
-            'source' => 'https://dl.yarnpkg.com/debian/pubkey.gpg',
+            name   => 'yarn-keyring.gpg',
+            source => 'https://dl.yarnpkg.com/debian/pubkey.gpg',
           },
         }
 
